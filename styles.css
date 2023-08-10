@@ -119,7 +119,7 @@ body {
 .main-description p:hover {
   text-shadow: 1px 1px 3px rgb(182, 96, 35);
 }
-=======
+
 header {
   display: flex;
   justify-content: space-between;
