@@ -168,8 +168,41 @@ sitemap ul li {
   background-color: #fcf3d0;
 }
 .slovakian .slovakian_dishes .slovakian_dish1 {
+  position: relative;
   display: flex;
   flex-direction: column;
+}
+.slovakian_dish1:hover .slovakian_dish1_img1 {
+  opacity: 0.3;
+}
+.slovakian_dish1:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.slovakian_dish1_img1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.text_slovakian_dish1 {
+  background-color: #fecd05;
+  color: black;
+  font-size: 14px;
+  padding: 16px 32px;
+  box-sizing: inline;
 }
 .slovakian .slovakian_dishes .slovakian_dish2 {
 }
@@ -225,4 +258,38 @@ sitemap ul li {
 .Afghan .afghan_dishes .afghan_dish2 {
 }
 .Afghan .afghan_dishes .afghan_dish3 {
+}
+
+.czech {
+  width: 100%;
+  height: 450px;
+  border: 2px solid rgb(229, 25, 236);
+}
+.czech .czech_headline {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 2220px;
+  height: 30px;
+}
+.czech .czech_headline #czech_span {
+  color: rgb(218, 221, 21);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-shadow: 4px 4px 5px red;
+}
+.czech .czech_dishes {
+  padding-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(223, 184, 12);
+  background-color: #fecd05;
+}
+
+.czech .czech_dishes .czech_dish1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
