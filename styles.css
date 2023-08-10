@@ -5,6 +5,131 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* SECTION for Stefan */
+
+/* SECTION for Sonia */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcf3d0;
+  color: #58585b;
+  padding: 10px;
+  border-bottom: 10px solid #fecd05;
+}
+
+.logo_claim {
+  display: flex;
+  align-items: center;
+}
+
+header logo img {
+  height: 100px;
+}
+
+header claim {
+  font-size: 1.6rem;
+  margin-left: 10%;
+  min-width: fit-content;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover {
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #fecd05;
+}
+
+nav li {
+  margin: 20px;
+  transition: background 0.25s, box-shadow 0.15s;
+  &:hover {
+    background: #fecd05;
+    cursor: pointer;
+  }
+}
+
+nav a:link {
+  color: #58585b;
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: #58585b;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fcf3d0;
+  color: #58585b;
+  padding: 10px;
+  border-top: 10px solid #fecd05;
+}
+
+footer h4,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+sitemap ul {
+  list-style: none;
+}
+
+sitemap ul ul li {
+  margin-left: 10px;
+}
+
+sitemap a:link,
+a:visited {
+  text-decoration: none;
+  color: #58585b;
+}
+
+#copyright_mail {
+  align-self: flex-end;
+  margin-right: 20px;
+  min-width: fit-content;
+  display: inline-flex;
+}
+
+#contact {
+  margin-left: 20px;
+}
+
+#contact a:link {
+  color: #58585b;
+}
+
+sitemap h4,
+sitemap ul {
+  color: rgb(113, 113, 113);
+  /*   font-size: 0.8rem;
+  font-weight: 400; */
+}
+
+sitemap ul li {
+  color: rgb(113, 113, 113);
+  /*   font-size: 0.8rem;
+  font-weight: 400; */
+}
+
 /* SECTION for Sonia */
 
 /* SECTION for mamoon */
