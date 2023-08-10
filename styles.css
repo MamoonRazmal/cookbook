@@ -7,6 +7,10 @@ body {
 
 /* SECTION for Stefan */
 
+
+/* SECTION for Sonia */
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -130,4 +134,111 @@ sitemap ul li {
 
 /* SECTION for Sonia */
 
+
 /* SECTION for mamoon */
+.main_div .headline #super{
+  width: 100%;
+  height: 300px;
+  object-fit:fill;
+  
+  
+}
+.main_div {
+  background-image: url("/pictures/red-hot-chili-peppers.jpg");
+ 
+}
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+  width: 100%;
+  height: 350px;
+  border: 2px solid green;
+}
+.slovakian {
+  width: 100%;
+  height: 450px;
+  border: 2px solid rgb(229, 25, 236);
+
+}
+
+
+.slovakian .slovakian_dishes {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(223, 184, 12);
+  background-color: white;
+  background-image: url(/pictures/tablecloth-pattern.jpg);
+  
+}
+.slovakian .slovakian_dishes .slovakian_dish1{
+  display: flex;
+  flex-direction: column;
+}
+.slovakian .slovakian_dishes .slovakian_dish2{}
+.slovakian .slovakian_dishes .slovakian_dish3{
+  height: 300px;
+}
+.slovakian_headline {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 2220px;
+  height: 30px;
+  
+}
+.slovakian .slovakian_headline #slovakian_span{
+  color:rgb(17, 6, 6);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-shadow: 4px 4px 5px red;
+  
+}
+
+.Afghan {
+
+  width: 100%;
+  height: 350px;
+  border: 2px solid rgb(229, 25, 236);
+}
+.Afghan .afghan_headline {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 2220px;
+  height: 30px;
+
+  
+}
+.Afghan .afghan_headline #Afghan_text{
+  color:rgb(17, 6, 6);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-shadow: 4px 4px 5px red;
+
+}
+
+
+
+.Afghan .afghan_dishes {
+  padding-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(223, 184, 12);
+  background-image: url(/pictures/tablecloth-pattern.jpg);
+  
+}
+.Afghan .afghan_dishes .afghan_dish1{
+  display: flex;
+  flex-direction: column;
+}
+.Afghan .afghan_dishes .afghan_dish2{}
+.Afghan .afghan_dishes .afghan_dish3{}
