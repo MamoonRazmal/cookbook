@@ -7,6 +7,13 @@ body {
 
 /* SECTION for Stefan */
 
+@media screen and (max-width: 850px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* SECTION for Sonia */
 
 .main-container {
