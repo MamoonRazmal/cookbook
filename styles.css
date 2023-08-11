@@ -293,18 +293,91 @@ sitemap ul li {
   border: 2px solid rgb(223, 184, 12);
   background-color: #fcf3d0;
 }
-.slovakian .slovakian_dishes .slovakian_dish1 {
+.slovakian .slovakian_dishes .slovakian_dish1,
+.slovakian .slovakian_dishes .slovakian_dish2,
+.slovakian .slovakian_dishes .slovakian_dish3,
+.Afghan .afghan_dishes .afghan_dish1,
+.Afghan .afghan_dishes .afghan_dish2,
+.Afghan .afghan_dishes .afghan_dish3,
+.czech .czech_dishes .czech_dish1,
+.czech .czech_dishes .czech_dish2,
+.czech .czech_dishes .czech_dish3 {
   position: relative;
   display: flex;
   flex-direction: column;
 }
+
 .slovakian_dish1:hover .slovakian_dish1_img1 {
   opacity: 0.3;
 }
 .slovakian_dish1:hover .middle {
   opacity: 1;
 }
+.slovakian_dish2:hover .slovakian_dish1_img2 {
+  opacity: 0.3;
+}
+.slovakian_dish2:hover .middle {
+  opacity: 1;
+}
+.slovakian_dish3:hover .slovakian_dish1_img3 {
+  opacity: 0.3;
+}
+.slovakian_dish3:hover .middle {
+  opacity: 1;
+}
 
+.afghan_dish1:hover .afghan_dish1_img1 {
+  opacity: 0.3;
+}
+.afghan_dish1:hover .middle {
+  opacity: 1;
+}
+.afghan_dish2:hover .afghan_dish2_img2 {
+  opacity: 0.3;
+}
+.afghan_dish2:hover .middle {
+  opacity: 1;
+}
+.afghan_dish3:hover .afghan_dish3_img3 {
+  opacity: 0.3;
+}
+.afghan_dish3:hover .middle {
+  opacity: 1;
+}
+
+.czech_dish1:hover .czech_dish1_img1 {
+  opacity: 0.3;
+}
+.czech_dish1:hover .middle {
+  opacity: 1;
+}
+.czech_dish2:hover .czech_dish2_img2 {
+  opacity: 0.3;
+}
+.czech_dish2:hover .middle {
+  opacity: 1;
+}
+.czech_dish3:hover .czech_dish3_img3 {
+  opacity: 0.3;
+}
+.czech_dish3:hover .middle {
+  opacity: 1;
+}
+
+.text_slovakian_dish2,
+.text_slovakian_dish3,
+.text_afghan_dish1,
+.text_afghan_dish2,
+.text_afghan_dish3,
+.text_czech_dish1,
+.text_czech_dish2,
+.text_czech_dish3 {
+  background-color: #fecd05;
+  color: black;
+  font-size: 14px;
+  padding: 16px 32px;
+  box-sizing: inline;
+}
 .middle {
   transition: 0.5s ease;
   opacity: 0;
